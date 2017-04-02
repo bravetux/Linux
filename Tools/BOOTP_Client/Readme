@@ -1,0 +1,38 @@
+BOOTP Client
+============
+Developed & Maintained By B.Vignesh Kumar 
+b.vigneshkumar@gdatech.co.in
+
+Package
+=======
+
+Package Consists of the Following Files
+bootpc.c	--> BOOTP Client Main Program
+libbootp.c	--> BOOTP Client Function Definitions
+libbootp.h	--> BOOTP Client Function Declaration
+bootp.h		--> BOOTP Client Header File
+err.h		--> BOOTP Client Error Codes
+
+bootp.log	--> BOOTP Client LOG
+cslog.log	--> BOOTP Client Checksum Log
+TODO		--> BOOTP Client Future Modifications
+Makefile	--> Script for Generating Executables
+
+Installation Steps to Be Followed
+==================================
+
+1. Extract All Files into Directory.
+2. Set the LD_LIBRARY_PATH to the current path.
+3. Requires root permission to run.
+4. Use 'make clean' to remove unwanted files.
+5. Use 'make' to compile libraries only.
+6. Use 'make bootpc' to compile the program.
+7. './bootpc' Runs the bootp client.
+
+Future Changes
+==============
+
+Refer TODO.txt
+
+
+
